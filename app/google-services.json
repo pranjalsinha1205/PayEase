@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "890400360622",
+    "project_id": "payease-firebase-auth-system",
+    "storage_bucket": "payease-firebase-auth-system.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890400360622:android:873015edcf50ed9601853f",
+        "android_client_info": {
+          "package_name": "com.example.payease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKzq-78S6_fbEiEMx6fLUstCvdqTDzMFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

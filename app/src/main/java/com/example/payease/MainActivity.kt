@@ -2,6 +2,7 @@ package com.example.payease
 
 import android.content.Intent
 import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.example.payease.auth.FirebaseAuthManager
@@ -12,11 +13,12 @@ import kotlinx.coroutines.launch
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_main)
         val sessionManager = SessionManager(this)
 
         lifecycleScope.launch {
-            delay(2000) // Splash screen delay
+            delay(5000) // Splash screen delay
 
             val user = FirebaseAuthManager.getCurrentUser()
             if (user != null && sessionManager.isLoggedIn()) {

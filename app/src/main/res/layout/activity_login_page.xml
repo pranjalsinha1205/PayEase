@@ -121,38 +121,40 @@
             android:textStyle="bold|italic"
             />
 
-            <ImageButton
-                android:id="@+id/googleLogin"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:background="@drawable/googlelogo"
-                android:layout_marginEnd="10dp"
-                app:layout_constraintStart_toStartOf="@id/SignIn"
-                app:layout_constraintEnd_toEndOf="@id/SignIn"
-                app:layout_constraintHorizontal_bias=".2"
-                app:layout_constraintTop_toBottomOf="@id/random"
-                app:layout_constraintBottom_toBottomOf="@id/innerLinearLayout"/>
 
-            <ImageButton
-                android:id="@+id/facebookLogin"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:background="@drawable/facebooklogo"
-                app:layout_constraintTop_toBottomOf="@id/random"
-                app:layout_constraintBottom_toBottomOf="@id/innerLinearLayout"
-                app:layout_constraintStart_toEndOf="@id/googleLogin"
-                app:layout_constraintEnd_toStartOf="@id/xLogin"/>
-            <ImageButton
-                android:id="@+id/xLogin"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginStart="10dp"
-                android:background="@drawable/twit"
-                app:layout_constraintTop_toBottomOf="@id/random"
-                app:layout_constraintBottom_toBottomOf="@id/innerLinearLayout"
-                app:layout_constraintEnd_toEndOf="@id/SignIn"
-                app:layout_constraintStart_toStartOf="@id/SignIn"
-                app:layout_constraintHorizontal_bias=".8"/>
+        <ImageButton
+            android:id="@+id/googleLogin"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintWidth_percent=".7"
+            app:layout_constraintHeight_percent=".15"
+            android:background="@drawable/google"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintStart_toStartOf="@id/SignIn"
+            app:layout_constraintEnd_toEndOf="@id/SignIn"
+            app:layout_constraintTop_toBottomOf="@id/random"
+            app:layout_constraintBottom_toBottomOf="@id/innerLinearLayout"/>
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/facebookLogin"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:background="@drawable/facebooklogo"-->
+<!--                app:layout_constraintTop_toBottomOf="@id/random"-->
+<!--                app:layout_constraintBottom_toBottomOf="@id/innerLinearLayout"-->
+<!--                app:layout_constraintStart_toEndOf="@id/googleLogin"-->
+<!--                app:layout_constraintEnd_toStartOf="@id/xLogin"/>-->
+<!--            <ImageButton-->
+<!--                android:id="@+id/xLogin"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:background="@drawable/twit"-->
+<!--                app:layout_constraintTop_toBottomOf="@id/random"-->
+<!--                app:layout_constraintBottom_toBottomOf="@id/innerLinearLayout"-->
+<!--                app:layout_constraintEnd_toEndOf="@id/SignIn"-->
+<!--                app:layout_constraintStart_toStartOf="@id/SignIn"-->
+<!--                app:layout_constraintHorizontal_bias=".8"/>-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

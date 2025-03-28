@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<solid android:color="#000000"/> <!-- Card color -->
+<corners android:radius="200dp"/> <!-- Optional: to make the square corners slightly rounded -->
+<size android:width="200dp" android:height="200dp"/> <!-- Set width and height to make it square -->
+</shape>
